@@ -1,4 +1,6 @@
 deployment:
   production:
     branch: deploy_pages
-    commands: npm run deploy
+    commands:
+      - npm run styleguide:build
+      - npm run deploy

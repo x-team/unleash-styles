@@ -1,5 +1,4 @@
 #!/bin/bash
-npm run styleguide:build
 ( cd styleguide
  git init
  git config user.name "Travis-CI"

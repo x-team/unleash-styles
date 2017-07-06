@@ -1,0 +1,4 @@
+deployment:
+  production:
+    branch: deploy_pages
+    commands: npm run deploy

@@ -1,9 +1,8 @@
 #!/bin/bash
-( cd styleguide
- git init
- git config user.name "Travis-CI"
- git config user.email "travis@nodemeatspace.com"
- git add .
- git commit -m "Deployed to Github Pages"
- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
-)
+cd styleguide
+git init
+git config --global user.email "karolsojko@gmail.com"
+git config --global user.name "karolsojko"
+git add .
+git commit -m "Deployed to Github Pages"
+git push -f "https://github.com/x-team/unleash-styles" master:gh-pages

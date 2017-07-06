@@ -14,7 +14,7 @@ test:
 
 deployment:
   production:
-    branch: deploy_pages
+    branch: master
     commands:
       - yarn run styleguide:build
       - yarn run deploy

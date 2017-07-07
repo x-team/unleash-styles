@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo renders correctly 1`] = `
+<div>
+  <a
+    className="Logo"
+    href="#"
+  >
+    <img
+      alt="Unleash"
+      className="LogoImg"
+      src="test-file-stub"
+    />
+    <span
+      className="LogoText"
+    >
+      Unleash
+    </span>
+  </a>
+</div>
+`;

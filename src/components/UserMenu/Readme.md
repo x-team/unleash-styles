@@ -1,0 +1,3 @@
+User Menu component:
+
+    <UserMenu />

@@ -1,0 +1,71 @@
+.UserMenu {
+	font: 16px/1.25 'Open Sans', sans-serif;
+	position: relative;
+	width: 54px;
+	user-select: none;
+}
+.UserMenuBtn {
+	display: none;
+}
+.UserMenuLabel {
+	display: inline-block;
+	position: relative;
+	font: 700 11px/36px 'Montserrat', sans-serif;
+	text-align: center;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: #eeddfc;
+	color: #8e15fa;
+	cursor: pointer;
+}
+.UserMenuLabel::after {
+	content: '';
+	position: absolute;
+	right: -18px;
+	top: calc(50% - 2px);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 4px 0 4px;
+	border-color: #eeddfc transparent transparent transparent;
+}
+
+.UserMenuList {
+	list-style: none;
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: 53px;
+	right: 0;
+	margin: 0;
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 0 10px 30px rgba(220,220,220,.5);
+}
+/*.UserMenuBtn[value="on"] ~ .UserMenuList,*/
+.UserMenuBtn:checked ~ .UserMenuList {
+	display: block;
+}
+
+.UserMenuItem {
+	line-height: 34px;
+}
+.UserMenuItemName {
+	font: 700 18px 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #242424;
+}
+.UserMenuItemEmail {
+	font-size: 16px;
+	color: #b8b7bc;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.UserMenuItemLink {
+	font: 600 14px 'Montserrat', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #b8b7bc;
+}

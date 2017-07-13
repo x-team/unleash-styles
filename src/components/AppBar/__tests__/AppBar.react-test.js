@@ -1,10 +1,9 @@
 /* global test, expect */
 import React from 'react'
 import { shallow } from 'enzyme'
+import AppBar from '../AppBar'
 
-import Logo from '../index'
-
-test('Logo renders correctly', () => {
-  const wrapper = shallow(<Logo />)
+test('AppBar renders correctly', () => {
+  const wrapper = shallow(<AppBar />)
   expect(wrapper).toMatchSnapshot()
 })

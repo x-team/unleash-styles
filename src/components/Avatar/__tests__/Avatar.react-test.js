@@ -2,9 +2,9 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import Logo from '../index'
+import Avatar from '../Avatar'
 
-test('Logo renders correctly', () => {
-  const wrapper = shallow(<Logo />)
+test('Avatar renders correctly', () => {
+  const wrapper = shallow(<Avatar label='test' />)
   expect(wrapper).toMatchSnapshot()
 })

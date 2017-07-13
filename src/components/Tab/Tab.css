@@ -1,0 +1,18 @@
+.Tab {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.TabLink {
+  display: inline-block;
+  font: 600 14px/70px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #b8b7bc;
+  border-bottom: 2px solid transparent;
+  transition: color .3s, border-bottom-color .3s;
+}
+.TabLink:hover,
+.TabLink:active {
+  color: #f33c57;
+  border-bottom-color: #f33c57;
+}

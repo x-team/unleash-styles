@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = {
   sections: [
     {
@@ -18,5 +19,8 @@ module.exports = {
       content: 'docs/ui.md',
       components: 'src/components/**/*.{js,jsx}'
     }
-  ]
+  ],
+  styleguideComponents: {
+    Wrapper: path.join(__dirname, '/styleguidist/style/wrapper/Wrapper.js')
+  }
 };

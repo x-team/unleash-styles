@@ -1,23 +1,23 @@
 .Logo {
-    display: flex;
-    text-decoration: none;
+  display: flex;
+  text-decoration: none;
 }
 
 .LogoImg {
-    display: inline-block;
-    width: 36px;
-    height: 46px;
+  display: inline-block;
+  width: 36px;
+  height: 46px;
 }
 
 .LogoText {
-    display: none;
+  display: none;
 }
 @media screen and (min-width: 1024px) {
-    .LogoText {
-        display: inline-block;
-        margin-left: 13px;
-        font: 800 22px/46px 'Montserrat', sans-serif;
-        text-transform: uppercase;
-        color: #0c0c0c;
-    }
+  .LogoText {
+    display: inline-block;
+    margin-left: 13px;
+    font: 800 22px/46px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #0c0c0c;
+  }
 }

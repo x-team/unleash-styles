@@ -1,0 +1,21 @@
+.Menu {
+  position: relative;
+  width: 54px;
+  user-select: none;
+}
+.MenuList {
+  list-style: none;
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 53px;
+  right: 0;
+  margin: 0;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(220,220,220,.5);
+}
+
+.MenuList_active {
+  display: block;
+}

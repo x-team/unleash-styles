@@ -9,6 +9,9 @@
 ./src/*.js
 
 [libs]
+prop-types
+classnames
+react-intl
 
 [options]
 all=true

@@ -2,7 +2,7 @@
   "name": "unleash-styles",
   "version": "1.0.0",
   "description": "React components for X-Team Unleash App",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest",
     "styleguide": "styleguidist server",

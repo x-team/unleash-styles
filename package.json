@@ -9,7 +9,8 @@
     "styleguide:build": "styleguidist build",
     "lint": "standard src/**/*.js",
     "build": "webpack -p",
-    "deploy": "./deploy-ghpages.sh"
+    "deploy": "./deploy-ghpages.sh",
+    "postinstall" : "npm run build"
   },
   "repository": "git+https://github.com/x-team/unleash-styles.git",
   "license": "ISC",

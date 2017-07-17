@@ -1,6 +1,6 @@
 {
   "name": "unleash-styles",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React components for X-Team Unleash App",
   "main": "lib/bundle.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "standard src/**/*.js",
     "build": "webpack -p",
     "deploy": "./deploy-ghpages.sh",
-    "postinstall" : "npm run build"
+    "postinstall": "npm run build"
   },
   "repository": "git+https://github.com/x-team/unleash-styles.git",
   "license": "ISC",

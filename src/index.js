@@ -6,7 +6,7 @@ import Avatar from './components/Avatar/Avatar'
 import Menu from './components/Menu/Menu'
 import MenuItem from './components/Menu/MenuItem'
 
-export default {
+export {
   Logo,
   AppBar,
   Tab,

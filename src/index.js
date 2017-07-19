@@ -1,17 +1,7 @@
-import Logo from './components/Logo/Logo'
-import AppBar from './components/AppBar/AppBar'
-import Tab from './components/Tab/Tab'
-import Tabs from './components/Tab/Tabs'
-import Avatar from './components/Avatar/Avatar'
-import Menu from './components/Menu/Menu'
-import MenuItem from './components/Menu/MenuItem'
-
-export {
-  Logo,
-  AppBar,
-  Tab,
-  Tabs,
-  Avatar,
-  Menu,
-  MenuItem
-}
+export Logo from './components/Logo'
+export AppBar from './components/AppBar/AppBar'
+export Tab from './components/Tab/Tab'
+export Tabs from './components/Tab/Tabs'
+export Avatar from './components/Avatar/Avatar'
+export Menu from './components/Menu/Menu'
+export MenuItem from './components/Menu/MenuItem'

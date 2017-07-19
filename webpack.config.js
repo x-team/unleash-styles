@@ -4,8 +4,11 @@ const webpack = require('webpack')
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.resolve('lib'),
-    filename: 'bundle.js'
+    path: path.resolve('./lib'),
+    filename: 'bundle.js',
+    library: 'unleashStyles',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     loaders: [

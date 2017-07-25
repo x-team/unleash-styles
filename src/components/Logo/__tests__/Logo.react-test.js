@@ -2,7 +2,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import Logo from '../index'
+import Logo from '../Logo'
 
 test('Logo renders correctly', () => {
   const wrapper = shallow(<Logo />)

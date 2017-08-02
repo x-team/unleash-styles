@@ -12,7 +12,9 @@ dependencies:
 
 test:
   override:
+    - yarn lint
     - yarn test
+    - yarn run flow
 
 deployment:
   production:

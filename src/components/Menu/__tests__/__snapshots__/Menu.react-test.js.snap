@@ -1,0 +1,511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <nav
+    className="Menu"
+>
+    <div
+        onClick={[Function]}
+    >
+        <MenuButton />
+    </div>
+    <ul
+        className="MenuList"
+    />
+</nav>,
+  "nodes": Array [
+    <nav
+      className="Menu"
+>
+      <div
+            onClick={[Function]}
+      >
+            <MenuButton />
+      </div>
+      <ul
+            className="MenuList"
+      />
+</nav>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Menu
+        isAlwaysOpened={false}
+        menuButton={<MenuButton />}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Menu {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "isAlwaysOpened": false,
+          "menuButton": <MenuButton />,
+        },
+        "refs": Object {},
+        "state": Object {
+          "isShowing": false,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <nav
+          className="Menu"
+>
+          <div
+                    onClick={[Function]}
+          >
+                    <MenuButton />
+          </div>
+          <ul
+                    className="MenuList"
+          />
+</nav>,
+        "_debugID": 2,
+        "_renderedOutput": <nav
+          className="Menu"
+>
+          <div
+                    onClick={[Function]}
+          >
+                    <MenuButton />
+          </div>
+          <ul
+                    className="MenuList"
+          />
+</nav>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Menu
+    isAlwaysOpened={false}
+    menuButton={<MenuButton />}
+/>,
+}
+`;
+
+exports[`Menu renders with MenuItems 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <nav
+    className="Menu"
+>
+    <div
+        onClick={[Function]}
+    >
+        <MenuButton />
+    </div>
+    <ul
+        className="MenuList"
+    >
+        <MenuItem
+            label="test"
+            type="important"
+        />
+        <MenuItem
+            label="test2"
+            type="emial"
+        />
+    </ul>
+</nav>,
+  "nodes": Array [
+    <nav
+      className="Menu"
+>
+      <div
+            onClick={[Function]}
+      >
+            <MenuButton />
+      </div>
+      <ul
+            className="MenuList"
+      >
+            <MenuItem
+                  label="test"
+                  type="important"
+            />
+            <MenuItem
+                  label="test2"
+                  type="emial"
+            />
+      </ul>
+</nav>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Menu
+        isAlwaysOpened={false}
+        menuButton={<MenuButton />}
+>
+        <MenuItem
+                label="test"
+                type="important"
+        />
+        <MenuItem
+                label="test2"
+                type="emial"
+        />
+</Menu>,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Menu {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "children": Array [
+            <MenuItem
+              label="test"
+              type="important"
+/>,
+            <MenuItem
+              label="test2"
+              type="emial"
+/>,
+          ],
+          "isAlwaysOpened": false,
+          "menuButton": <MenuButton />,
+        },
+        "refs": Object {},
+        "state": Object {
+          "isShowing": false,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <nav
+          className="Menu"
+>
+          <div
+                    onClick={[Function]}
+          >
+                    <MenuButton />
+          </div>
+          <ul
+                    className="MenuList"
+          >
+                    <MenuItem
+                              label="test"
+                              type="important"
+                    />
+                    <MenuItem
+                              label="test2"
+                              type="emial"
+                    />
+          </ul>
+</nav>,
+        "_debugID": 4,
+        "_renderedOutput": <nav
+          className="Menu"
+>
+          <div
+                    onClick={[Function]}
+          >
+                    <MenuButton />
+          </div>
+          <ul
+                    className="MenuList"
+          >
+                    <MenuItem
+                              label="test"
+                              type="important"
+                    />
+                    <MenuItem
+                              label="test2"
+                              type="emial"
+                    />
+          </ul>
+</nav>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Menu
+    isAlwaysOpened={false}
+    menuButton={<MenuButton />}
+>
+    <MenuItem
+        label="test"
+        type="important"
+    />
+    <MenuItem
+        label="test2"
+        type="emial"
+    />
+</Menu>,
+}
+`;
+
+exports[`Menu renders with MenuItems and custom menu button 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <nav
+    className="Menu"
+>
+    <div
+        onClick={[Function]}
+    >
+        <Avatar
+            label="test"
+            onClick={[Function]}
+        />
+    </div>
+    <ul
+        className="MenuList"
+    >
+        <MenuItem
+            label="test@test.com"
+            type="email"
+        />
+        <MenuItem
+            label="test2"
+            type="important"
+        />
+    </ul>
+</nav>,
+  "nodes": Array [
+    <nav
+      className="Menu"
+>
+      <div
+            onClick={[Function]}
+      >
+            <Avatar
+                  label="test"
+                  onClick={[Function]}
+            />
+      </div>
+      <ul
+            className="MenuList"
+      >
+            <MenuItem
+                  label="test@test.com"
+                  type="email"
+            />
+            <MenuItem
+                  label="test2"
+                  type="important"
+            />
+      </ul>
+</nav>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Menu
+        isAlwaysOpened={false}
+        menuButton={
+                <Avatar
+                        label="test"
+                        onClick={[Function]}
+                />
+        }
+>
+        <MenuItem
+                label="test@test.com"
+                type="email"
+        />
+        <MenuItem
+                label="test2"
+                type="important"
+        />
+</Menu>,
+      "_debugID": 5,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Menu {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "children": Array [
+            <MenuItem
+              label="test@test.com"
+              type="email"
+/>,
+            <MenuItem
+              label="test2"
+              type="important"
+/>,
+          ],
+          "isAlwaysOpened": false,
+          "menuButton": <Avatar
+            label="test"
+            onClick={[Function]}
+/>,
+        },
+        "refs": Object {},
+        "state": Object {
+          "isShowing": false,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 3,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <nav
+          className="Menu"
+>
+          <div
+                    onClick={[Function]}
+          >
+                    <Avatar
+                              label="test"
+                              onClick={[Function]}
+                    />
+          </div>
+          <ul
+                    className="MenuList"
+          >
+                    <MenuItem
+                              label="test@test.com"
+                              type="email"
+                    />
+                    <MenuItem
+                              label="test2"
+                              type="important"
+                    />
+          </ul>
+</nav>,
+        "_debugID": 6,
+        "_renderedOutput": <nav
+          className="Menu"
+>
+          <div
+                    onClick={[Function]}
+          >
+                    <Avatar
+                              label="test"
+                              onClick={[Function]}
+                    />
+          </div>
+          <ul
+                    className="MenuList"
+          >
+                    <MenuItem
+                              label="test@test.com"
+                              type="email"
+                    />
+                    <MenuItem
+                              label="test2"
+                              type="important"
+                    />
+          </ul>
+</nav>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Menu
+    isAlwaysOpened={false}
+    menuButton={
+        <Avatar
+            label="test"
+            onClick={[Function]}
+        />
+    }
+>
+    <MenuItem
+        label="test@test.com"
+        type="email"
+    />
+    <MenuItem
+        label="test2"
+        type="important"
+    />
+</Menu>,
+}
+`;

@@ -1,0 +1,27 @@
+.AppBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 18px;
+  height: 70px;
+
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  width: calc(100% - 36px); /* 18px left/right padding */
+  background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .AppBar {
+    padding: 0 28px;
+    width: calc(100% - 56px); /* 28px left/right padding */
+  }
+}
+@media screen and (min-width: 1024px) {
+  .AppBar {
+    padding: 0 70px;
+    width: calc(100% - 140px); /* 70px left/right padding */
+  }
+}

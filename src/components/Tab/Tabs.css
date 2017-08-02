@@ -1,0 +1,8 @@
+.Tabs {
+  line-height: 70px;
+}
+.TabsList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Logo renders correctly 1`] = `
+exports[`Avatar renders correctly 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -9,55 +9,55 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div>
-    <a
-        className="Logo"
-        href="#"
+    <input
+        className="AvatarButton"
+        id="avatar_button"
+        onClick={[Function]}
+        type="checkbox"
+    />
+    <label
+        className="AvatarButtonLabel"
+        for="avatar_button"
     >
-        <img
-            alt="Unleash"
-            className="LogoImg"
-            src="test-file-stub"
-        />
-        <span
-            className="LogoText"
-        >
-            Unleash
-        </span>
-    </a>
+        test
+    </label>
 </div>,
   "nodes": Array [
     <div>
-      <a
-            className="Logo"
-            href="#"
+      <input
+            className="AvatarButton"
+            id="avatar_button"
+            onClick={[Function]}
+            type="checkbox"
+      />
+      <label
+            className="AvatarButtonLabel"
+            for="avatar_button"
       >
-            <img
-                  alt="Unleash"
-                  className="LogoImg"
-                  src="test-file-stub"
-            />
-            <span
-                  className="LogoText"
-            >
-                  Unleash
-            </span>
-      </a>
+            test
+      </label>
 </div>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
     "_instance": ShallowComponentWrapper {
       "_calledComponentWillUnmount": false,
-      "_compositeType": 2,
+      "_compositeType": 0,
       "_context": Object {},
-      "_currentElement": <Logo />,
+      "_currentElement": <Avatar
+        label="test"
+        onClick={[Function]}
+/>,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
-      "_instance": StatelessComponent {
+      "_instance": Avatar {
         "_reactInternalInstance": [Circular],
         "context": Object {},
-        "props": Object {},
+        "props": Object {
+          "label": "test",
+          "onClick": [Function],
+        },
         "refs": Object {},
         "state": null,
         "updater": Object {
@@ -79,39 +79,33 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div>
-          <a
-                    className="Logo"
-                    href="#"
+          <input
+                    className="AvatarButton"
+                    id="avatar_button"
+                    onClick={[Function]}
+                    type="checkbox"
+          />
+          <label
+                    className="AvatarButtonLabel"
+                    for="avatar_button"
           >
-                    <img
-                              alt="Unleash"
-                              className="LogoImg"
-                              src="test-file-stub"
-                    />
-                    <span
-                              className="LogoText"
-                    >
-                              Unleash
-                    </span>
-          </a>
+                    test
+          </label>
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div>
-          <a
-                    className="Logo"
-                    href="#"
+          <input
+                    className="AvatarButton"
+                    id="avatar_button"
+                    onClick={[Function]}
+                    type="checkbox"
+          />
+          <label
+                    className="AvatarButtonLabel"
+                    for="avatar_button"
           >
-                    <img
-                              alt="Unleash"
-                              className="LogoImg"
-                              src="test-file-stub"
-                    />
-                    <span
-                              className="LogoText"
-                    >
-                              Unleash
-                    </span>
-          </a>
+                    test
+          </label>
 </div>,
       },
       "_renderedNodeType": 0,
@@ -124,6 +118,9 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Logo />,
+  "unrendered": <Avatar
+    label="test"
+    onClick={[Function]}
+/>,
 }
 `;

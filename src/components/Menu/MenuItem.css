@@ -1,0 +1,24 @@
+.MenuItem {
+  line-height: 34px !important;
+  font: 16px/1.25 'Open Sans', sans-serif;
+}
+
+.MenuItemName {
+  font: 700 18px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #242424;
+}
+
+.MenuItemEmail {
+  font-size: 16px;
+  color: #b8b7bc;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.MenuItemLink {
+  font: 600 14px 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #b8b7bc;
+}

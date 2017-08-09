@@ -1,0 +1,12 @@
+.TextArea {
+  height: 6em;
+  display: block;
+  font: 14px/1.4 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #9a9d9e;
+  padding: 7px 11px;
+  border: 2px solid #e9edee;
+  margin: 4px 0 8px;
+  width: calc(100% - 26px); /* (11px padding + 2px border) * left/right */
+}

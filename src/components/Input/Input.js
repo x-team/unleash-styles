@@ -15,7 +15,7 @@ class Input extends Component {
 }
 
 Input.propTypes = {
-  /** text or textarea type of input if needed */
+  /** type of the input */
   type: PropTypes.string.isRequired
 }
 

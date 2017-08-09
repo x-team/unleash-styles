@@ -1,3 +1,3 @@
 TextArea
 
-    <TextArea id="foo" label="bar" placeholder="baz" />
+    <TextArea id='foo' label='bar' placeholder='baz' />

@@ -7,10 +7,10 @@ import styles from './Input.css'
  */
 class Input extends Component {
   render () {
-		const { type } = this.props
-		return (
-			<input className={styles.Input} type={type} {...this.props} />
-		)
+    const { type } = this.props
+    return (
+      <input className={styles.Input} type={type} {...this.props} />
+    )
   }
 }
 

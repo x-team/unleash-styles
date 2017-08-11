@@ -1,17 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Input.css'
 
 /**
  * Input
  */
-class Input extends Component {
-  render () {
-    const { type } = this.props
-    return (
-      <input className={styles.Input} type={type} {...this.props} />
-    )
-  }
+function Input (props) {
+  return <input className={styles.Input} {...props} />
 }
 
 Input.propTypes = {

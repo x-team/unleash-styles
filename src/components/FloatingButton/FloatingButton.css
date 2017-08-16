@@ -1,0 +1,21 @@
+.FloatingButton {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f63954;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+@media screen and (min-width: 768px) {
+	.FloatingButton {
+    bottom: 30px;
+    right: 30px;
+	}
+}

@@ -14,7 +14,9 @@ ShallowWrapper {
     <div
         onClick={[Function]}
     >
-        <MenuButton />
+        <MenuButton
+            onClick={[Function]}
+        />
     </div>
     <ul
         className="MenuList"
@@ -27,7 +29,9 @@ ShallowWrapper {
       <div
             onClick={[Function]}
       >
-            <MenuButton />
+            <MenuButton
+                  onClick={[Function]}
+            />
       </div>
       <ul
             className="MenuList"
@@ -42,7 +46,11 @@ ShallowWrapper {
       "_context": Object {},
       "_currentElement": <Menu
         isAlwaysOpened={false}
-        menuButton={<MenuButton />}
+        menuButton={
+                <MenuButton
+                        onClick={[Function]}
+                />
+        }
 />,
       "_debugID": 1,
       "_hostContainerInfo": null,
@@ -52,7 +60,9 @@ ShallowWrapper {
         "context": Object {},
         "props": Object {
           "isAlwaysOpened": false,
-          "menuButton": <MenuButton />,
+          "menuButton": <MenuButton
+            onClick={[Function]}
+/>,
         },
         "refs": Object {},
         "state": Object {
@@ -82,7 +92,9 @@ ShallowWrapper {
           <div
                     onClick={[Function]}
           >
-                    <MenuButton />
+                    <MenuButton
+                              onClick={[Function]}
+                    />
           </div>
           <ul
                     className="MenuList"
@@ -95,7 +107,9 @@ ShallowWrapper {
           <div
                     onClick={[Function]}
           >
-                    <MenuButton />
+                    <MenuButton
+                              onClick={[Function]}
+                    />
           </div>
           <ul
                     className="MenuList"
@@ -114,7 +128,11 @@ ShallowWrapper {
   "root": [Circular],
   "unrendered": <Menu
     isAlwaysOpened={false}
-    menuButton={<MenuButton />}
+    menuButton={
+        <MenuButton
+            onClick={[Function]}
+        />
+    }
 />,
 }
 `;
@@ -133,7 +151,9 @@ ShallowWrapper {
     <div
         onClick={[Function]}
     >
-        <MenuButton />
+        <MenuButton
+            onClick={[Function]}
+        />
     </div>
     <ul
         className="MenuList"
@@ -155,7 +175,9 @@ ShallowWrapper {
       <div
             onClick={[Function]}
       >
-            <MenuButton />
+            <MenuButton
+                  onClick={[Function]}
+            />
       </div>
       <ul
             className="MenuList"
@@ -179,7 +201,11 @@ ShallowWrapper {
       "_context": Object {},
       "_currentElement": <Menu
         isAlwaysOpened={false}
-        menuButton={<MenuButton />}
+        menuButton={
+                <MenuButton
+                        onClick={[Function]}
+                />
+        }
 >
         <MenuItem
                 label="test"
@@ -208,7 +234,9 @@ ShallowWrapper {
 />,
           ],
           "isAlwaysOpened": false,
-          "menuButton": <MenuButton />,
+          "menuButton": <MenuButton
+            onClick={[Function]}
+/>,
         },
         "refs": Object {},
         "state": Object {
@@ -238,7 +266,9 @@ ShallowWrapper {
           <div
                     onClick={[Function]}
           >
-                    <MenuButton />
+                    <MenuButton
+                              onClick={[Function]}
+                    />
           </div>
           <ul
                     className="MenuList"
@@ -260,7 +290,9 @@ ShallowWrapper {
           <div
                     onClick={[Function]}
           >
-                    <MenuButton />
+                    <MenuButton
+                              onClick={[Function]}
+                    />
           </div>
           <ul
                     className="MenuList"
@@ -288,7 +320,11 @@ ShallowWrapper {
   "root": [Circular],
   "unrendered": <Menu
     isAlwaysOpened={false}
-    menuButton={<MenuButton />}
+    menuButton={
+        <MenuButton
+            onClick={[Function]}
+        />
+    }
 >
     <MenuItem
         label="test"

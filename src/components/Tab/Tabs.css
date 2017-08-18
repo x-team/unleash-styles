@@ -1,8 +1,31 @@
 .Tabs {
   line-height: 70px;
 }
+
 .TabsList {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.Tabs_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .Tabs {
+		display: block;
+		font-size: 14px;
+		text-align: center;
+		border: none;
+		display: block;
+		position: relative;
+		padding: 18px 0;
+		z-index: 10;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		line-height: 36px;
+	}
 }

@@ -6,7 +6,7 @@ App bar with logo, menu:
 
     <AppBar appBarLogo={<Logo />}>
       <Tabs>
-        <Tab label="home" />
+        <Tab label="home" isCurrent={true} />
         <Tab label="my path" />
         <Tab label="profile" />
         <Tab label="goals" />

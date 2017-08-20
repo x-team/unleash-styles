@@ -26,7 +26,7 @@ class Avatar extends Component {
         />
         <label
           className={styles.AvatarButtonLabel}
-          for='avatar_button'>{label}
+          htmlFor='avatar_button'>{label}
         </label>
       </div>
     )

@@ -8,35 +8,81 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <nav
-    className="Tabs"
->
-    <ul
-        className="TabsList"
-    >
-        <Tab
-            label="test"
-        />
-        <Tab
-            label="test2"
-        />
-    </ul>
-</nav>,
-  "nodes": Array [
+  "node": <div>
     <nav
-      className="Tabs"
->
-      <ul
+        className="Tabs"
+    >
+        <li
+            className="TabNavButton"
+        >
+            <a
+                className="TabLinkNavButton TabLinkNavButton_current"
+                href="#"
+                onClick={[Function]}
+            >
+                <span
+                    className="TabLinkLabelNavButton_currentw"
+                >
+                    test
+                </span>
+            </a>
+        </li>
+        <ul
             className="TabsList"
+        >
+            <Tab
+                href="#"
+                isCurrent={true}
+                isShowing={false}
+                label="test"
+            />
+            <Tab
+                href="#"
+                isCurrent={false}
+                isShowing={false}
+                label="test2"
+            />
+        </ul>
+    </nav>
+</div>,
+  "nodes": Array [
+    <div>
+      <nav
+            className="Tabs"
       >
-            <Tab
-                  label="test"
-            />
-            <Tab
-                  label="test2"
-            />
-      </ul>
-</nav>,
+            <li
+                  className="TabNavButton"
+            >
+                  <a
+                        className="TabLinkNavButton TabLinkNavButton_current"
+                        href="#"
+                        onClick={[Function]}
+                  >
+                        <span
+                              className="TabLinkLabelNavButton_currentw"
+                        >
+                              test
+                        </span>
+                  </a>
+            </li>
+            <ul
+                  className="TabsList"
+            >
+                  <Tab
+                        href="#"
+                        isCurrent={true}
+                        isShowing={false}
+                        label="test"
+                  />
+                  <Tab
+                        href="#"
+                        isCurrent={false}
+                        isShowing={false}
+                        label="test2"
+                  />
+            </ul>
+      </nav>
+</div>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -46,9 +92,15 @@ ShallowWrapper {
       "_context": Object {},
       "_currentElement": <Tabs>
         <Tab
+                href="#"
+                isCurrent={true}
+                isShowing={false}
                 label="test"
         />
         <Tab
+                href="#"
+                isCurrent={false}
+                isShowing={false}
                 label="test2"
         />
 </Tabs>,
@@ -58,18 +110,27 @@ ShallowWrapper {
       "_instance": Tabs {
         "_reactInternalInstance": [Circular],
         "context": Object {},
+        "handleClick": [Function],
         "props": Object {
           "children": Array [
             <Tab
+              href="#"
+              isCurrent={true}
+              isShowing={false}
               label="test"
 />,
             <Tab
+              href="#"
+              isCurrent={false}
+              isShowing={false}
               label="test2"
 />,
           ],
         },
         "refs": Object {},
-        "state": null,
+        "state": Object {
+          "isShowing": false,
+        },
         "updater": Object {
           "enqueueCallback": [Function],
           "enqueueCallbackInternal": [Function],
@@ -88,35 +149,81 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <nav
-          className="Tabs"
->
-          <ul
-                    className="TabsList"
+        "_currentElement": <div>
+          <nav
+                    className="Tabs"
           >
-                    <Tab
-                              label="test"
-                    />
-                    <Tab
-                              label="test2"
-                    />
-          </ul>
-</nav>,
+                    <li
+                              className="TabNavButton"
+                    >
+                              <a
+                                        className="TabLinkNavButton TabLinkNavButton_current"
+                                        href="#"
+                                        onClick={[Function]}
+                              >
+                                        <span
+                                                  className="TabLinkLabelNavButton_currentw"
+                                        >
+                                                  test
+                                        </span>
+                              </a>
+                    </li>
+                    <ul
+                              className="TabsList"
+                    >
+                              <Tab
+                                        href="#"
+                                        isCurrent={true}
+                                        isShowing={false}
+                                        label="test"
+                              />
+                              <Tab
+                                        href="#"
+                                        isCurrent={false}
+                                        isShowing={false}
+                                        label="test2"
+                              />
+                    </ul>
+          </nav>
+</div>,
         "_debugID": 2,
-        "_renderedOutput": <nav
-          className="Tabs"
->
-          <ul
-                    className="TabsList"
+        "_renderedOutput": <div>
+          <nav
+                    className="Tabs"
           >
-                    <Tab
-                              label="test"
-                    />
-                    <Tab
-                              label="test2"
-                    />
-          </ul>
-</nav>,
+                    <li
+                              className="TabNavButton"
+                    >
+                              <a
+                                        className="TabLinkNavButton TabLinkNavButton_current"
+                                        href="#"
+                                        onClick={[Function]}
+                              >
+                                        <span
+                                                  className="TabLinkLabelNavButton_currentw"
+                                        >
+                                                  test
+                                        </span>
+                              </a>
+                    </li>
+                    <ul
+                              className="TabsList"
+                    >
+                              <Tab
+                                        href="#"
+                                        isCurrent={true}
+                                        isShowing={false}
+                                        label="test"
+                              />
+                              <Tab
+                                        href="#"
+                                        isCurrent={false}
+                                        isShowing={false}
+                                        label="test2"
+                              />
+                    </ul>
+          </nav>
+</div>,
       },
       "_renderedNodeType": 0,
       "_rootNodeID": 0,
@@ -130,9 +237,15 @@ ShallowWrapper {
   "root": [Circular],
   "unrendered": <Tabs>
     <Tab
+        href="#"
+        isCurrent={true}
+        isShowing={false}
         label="test"
     />
     <Tab
+        href="#"
+        isCurrent={false}
+        isShowing={false}
         label="test2"
     />
 </Tabs>,

@@ -2,7 +2,11 @@
   display: inline-block;
   margin-right: 2rem;
 }
-.TabLink {
+.TabNavButton {
+  display: none;
+}
+.TabLink,
+.TabLinkNavButton {
   display: inline-block;
   font: 600 14px/70px 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -12,7 +16,65 @@
   transition: color .3s, border-bottom-color .3s;
 }
 .TabLink:hover,
-.TabLink:active {
+.TabLink_current,
+.TabLinkNavButton_current{
   color: #f33c57;
   border-bottom-color: #f33c57;
+}
+
+@media screen and (max-width: 767px) {
+
+	/* customizing default menu */
+	.TabNavButton {
+    display: block;
+		margin-right: 0;
+		background-color: #fff;
+    margin-right: 2rem;
+	}
+	.TabLinkNavButton {
+		display: none;
+	}
+	.TabLinkNavButton_current {
+		display: block;
+		margin-right: -8px;
+	}
+	.TabLinkLabelNavButton_current {
+		display: inline-block;
+		position: relative;
+		padding-right: 18px;
+	}
+	.TabLinkLabelNavButton_current::after {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: calc(50% - 2px);
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 5px 4px 0 4px;
+		border-color: #f33c57 transparent transparent transparent;
+	}
+  .Tab {
+		display: none;
+	}
+	.TabLink {
+		display: block;
+		font-size: 14px;
+		line-height: 36px;
+		text-align: center;
+		border: none;
+	}
+	.TabLink_current {
+		margin-right: 0;
+		margin-right: 0;
+	}
+	.TabLinkLabel_current {
+		padding-right: 0;
+	}
+	.TabLinkLabel_current::after {
+		display: none;
+	}
+  .is_showing {
+    display: block;
+  }
 }

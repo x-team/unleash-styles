@@ -7,7 +7,7 @@ import Tab from '../Tab'
 test('Tabs renders correctly', () => {
   const wrapper = shallow(
     <Tabs>
-      <Tab label='test' />
+      <Tab label='test' isCurrent />
       <Tab label='test2' />
     </Tabs>
   )

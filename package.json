@@ -4,6 +4,7 @@
   "description": "React components for X-Team Unleash App",
   "main": "lib/bundle.js",
   "scripts": {
+    "postinstall": "styleguidist build",
     "test": "jest",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",

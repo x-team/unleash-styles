@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+	.SocialIcons {
+		display: none;
+	}
+}
+
+.SocialIcons {
+	display: inline-flex;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* if there's space, icons are placed alongside the name via js/social-icons.js */
+.SocialIcons--top {
+	position: absolute;
+	left: 0;
+	top: 6px;
+}

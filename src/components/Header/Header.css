@@ -1,0 +1,23 @@
+.Header {
+	display: inline-block;
+	font: 600 22px/1 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #242424;
+	margin: 8px 0;
+}
+@media screen and (max-width: 767px) {
+	.Header {
+		margin-left: 83px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.Header {
+		font-size: 28px;
+		margin: 0;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.Header {
+		font-size: 34px;
+	}
+}

@@ -1,0 +1,38 @@
+.Tags {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-flex;
+	position: relative;
+}
+@media screen and (max-width: 767px) {
+	.Tags {
+		margin-top: 30px;
+	}
+}
+
+/* hide/show tags via /js/skill-tags.js */
+.Tags,
+.Tags--unfolded {
+	flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+	.Tags,
+	.Tags--unfolded {
+		justify-content: flex-end;
+		padding-right: 20px;
+	}
+}
+.Tags--unfolded .Tag {
+	display: inline-block;
+}
+
+.Tags::after {
+	content: attr(data-content);
+	position: absolute;
+	right: -15px;
+	top: 3px;
+	color: #f33c57;
+	font: 700 13px 'Open Sans', sans-serif;
+	cursor: pointer;
+}

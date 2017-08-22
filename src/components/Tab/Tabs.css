@@ -1,11 +1,13 @@
 .Tabs {
   line-height: 70px;
+  position: relative;
 }
 
 .TabsList {
   padding: 0;
   margin: 0;
   list-style: none;
+  width: 100%;
 }
 
 .Tabs_mobile {
@@ -18,14 +20,14 @@
 		font-size: 14px;
 		text-align: center;
 		border: none;
-		display: block;
 		position: relative;
-		padding: 18px 0;
-		z-index: 10;
-		top: 0;
-		left: 0;
+		padding: 15px 0;
 		width: 100%;
 		background-color: #fff;
 		line-height: 36px;
+	}
+	.TabsList {
+	  position: absolute;
+	  background-color: #fff;		
 	}
 }

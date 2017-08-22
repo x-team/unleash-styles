@@ -49,11 +49,9 @@ class Tabs extends Component {
       tabStyles.TabLinkNavButton_current
     )
     return (
-      <li className={tabStyles.TabNavButton}>
-        <a href='#' className={classes} onClick={this.handleClick}>
-          <span className={tabStyles.TabLinkLabelNavButton_currentw}>{currentTab.props.label}</span>
-        </a>
-      </li>
+      <button className={tabStyles.TabNavButton} onClick={this.handleClick}>
+        <span className={tabStyles.TabNavButtonLabel}>{currentTab.props.label}</span>
+      </button>
     )
   }
 

@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <div
+        className="Modal_overlay"
+        onClick={[Function]}
+    />
+    <div
+        className="Modal"
+    >
+        <div
+            className="Modal_content"
+        >
+            <p
+                className="Modal_title"
+            >
+                Header
+            </p>
+            <div>
+                <p>
+                    This is just for testing purposes...
+                </p>
+            </div>
+        </div>
+    </div>
+</div>,
+  "nodes": Array [
+    <div>
+      <div
+            className="Modal_overlay"
+            onClick={[Function]}
+      />
+      <div
+            className="Modal"
+      >
+            <div
+                  className="Modal_content"
+            >
+                  <p
+                        className="Modal_title"
+                  >
+                        Header
+                  </p>
+                  <div>
+                        <p>
+                              This is just for testing purposes...
+                        </p>
+                  </div>
+            </div>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Modal
+        header="Header"
+        isOpen={true}
+>
+        <div>
+                <p>
+                        This is just for testing purposes...
+                </p>
+        </div>
+</Modal>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Modal {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "children": <div>
+            <p>
+                        This is just for testing purposes...
+            </p>
+</div>,
+          "header": "Header",
+          "isOpen": true,
+        },
+        "refs": Object {},
+        "state": Object {
+          "isShowing": true,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <div
+                    className="Modal_overlay"
+                    onClick={[Function]}
+          />
+          <div
+                    className="Modal"
+          >
+                    <div
+                              className="Modal_content"
+                    >
+                              <p
+                                        className="Modal_title"
+                              >
+                                        Header
+                              </p>
+                              <div>
+                                        <p>
+                                                  This is just for testing purposes...
+                                        </p>
+                              </div>
+                    </div>
+          </div>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <div
+                    className="Modal_overlay"
+                    onClick={[Function]}
+          />
+          <div
+                    className="Modal"
+          >
+                    <div
+                              className="Modal_content"
+                    >
+                              <p
+                                        className="Modal_title"
+                              >
+                                        Header
+                              </p>
+                              <div>
+                                        <p>
+                                                  This is just for testing purposes...
+                                        </p>
+                              </div>
+                    </div>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Modal
+    header="Header"
+    isOpen={true}
+>
+    <div>
+        <p>
+            This is just for testing purposes...
+        </p>
+    </div>
+</Modal>,
+}
+`;

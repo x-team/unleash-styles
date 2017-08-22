@@ -1,0 +1,50 @@
+.Modal {
+  position: fixed;
+  width: calc(100% - 100px);
+  top: 20%;
+  left: 20px;
+  transition: .3s opacity ease-out;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(200,200,200,.75);
+  padding: 30px;
+  z-index: 1002;
+}
+
+@media screen and (min-width: 460px) {
+  .Modal {
+    width: 400px;
+    left: calc(50% - 230px);
+  }
+}
+
+.Modal.isHidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.Modal_overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(100,100,100,.2);
+  transition: .3s opacity ease-out, .3s background-color ease-out;
+  z-index: 1001;
+}
+
+.Modal_overlay.isHidden {
+  visibility: hidden;
+  opacity: 0;
+  background-color: transparent;
+  width: 0;
+  height: 0;
+}
+
+.Modal_title {
+  font: 600 22px/1 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #34323b;
+  margin: 0 auto 20px;
+}

@@ -3,7 +3,7 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import Menu from '../Menu'
 import MenuItem from '../MenuItem'
-import Avatar from '../../Avatar/Avatar'
+import AvatarButton from '../../AvatarButton/AvatarButton'
 
 test('Menu renders correctly', () => {
   const wrapper = shallow(<Menu />)
@@ -22,7 +22,7 @@ test('Menu renders with MenuItems', () => {
 
 test('Menu renders with MenuItems and custom menu button', () => {
   const wrapper = shallow(
-    <Menu menuButton={<Avatar label='test' />}>
+    <Menu menuButton={<AvatarButton label='test' />}>
       <MenuItem label='test@test.com' type='email' />
       <MenuItem label='test2' type='important' />
     </Menu>

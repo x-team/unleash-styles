@@ -25,7 +25,8 @@
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-intl": "^2.3.0"
+    "react-intl": "^2.3.0",
+    "recharts": "^1.0.0-alpha.4"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

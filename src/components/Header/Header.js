@@ -1,3 +1,4 @@
+/** @flow */
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Header.css'
@@ -5,7 +6,7 @@ import styles from './Header.css'
 /**
  * Header
  */
-function Header (props) {
+function Header (props: Object) {
   return <h2 className={styles.Header}>{props.text}</h2>
 }
 

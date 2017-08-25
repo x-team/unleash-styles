@@ -1,0 +1,24 @@
+Graph Component:
+
+    <Graph data={
+      [{tempo: 1},
+      {tempo: 2},
+      {tempo: 3},
+      {tempo: 2},
+      {tempo: 3},
+      {tempo: 4},
+      {tempo: 4},
+      {tempo: 5},
+      {tempo: 1},
+      {tempo: 1},
+      {tempo: 1},
+      {tempo: 1},
+      {tempo: 1},
+      {tempo: 1},
+      {tempo: 1},
+      {tempo: 1},
+      {tempo: 1},
+      {tempo: 1},
+      {tempo: 1},
+      {tempo: 6}
+      ]} />

@@ -1,0 +1,456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GoalCard renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <li
+    className="GoalCard"
+>
+    <div
+        className="GoalCardIntro"
+    >
+        <h3
+            className="GoalCardTitle"
+        >
+            Lorem Ipsum
+        </h3>
+        <p
+            className="GoalCardDescription"
+        />
+        <div
+            className="GoalCardProgress"
+        >
+            <div
+                className="GoalCardSteps"
+            >
+                <span
+                    className="GoalCardStepsLabel"
+                >
+                    Steps:
+                </span>
+                <span>
+                    2
+                </span>
+                <span
+                    className="GoalCardStepsBar"
+                >
+                    /
+                </span>
+                <span>
+                    4
+                </span>
+            </div>
+            <progress
+                className="GoalCardProgressBar"
+                max={4}
+                value={2}
+            />
+            <button
+                className="GoalCardSwitchView"
+            />
+        </div>
+    </div>
+    <div
+        className="GoalCardInfo"
+    >
+        <ul
+            className="GoalCardChecklist"
+        >
+            <GoalCardItem
+                isComplete={true}
+                label="test1"
+            />
+            <GoalCardItem
+                isComplete={true}
+                label="test2"
+            />
+            <GoalCardItem
+                label="test3"
+            />
+            <GoalCardItem
+                label="test4"
+            />
+            <li
+                className="GoalCardAddNew"
+            >
+                <button
+                    className="GoalCardAddNewButton"
+                    onClick={[Function]}
+                >
+                    <span
+                        className="GoalCardAddNewButtonIcon"
+                    >
+                        +
+                    </span>
+                     add a new step
+                </button>
+            </li>
+        </ul>
+    </div>
+</li>,
+  "nodes": Array [
+    <li
+      className="GoalCard"
+>
+      <div
+            className="GoalCardIntro"
+      >
+            <h3
+                  className="GoalCardTitle"
+            >
+                  Lorem Ipsum
+            </h3>
+            <p
+                  className="GoalCardDescription"
+            />
+            <div
+                  className="GoalCardProgress"
+            >
+                  <div
+                        className="GoalCardSteps"
+                  >
+                        <span
+                              className="GoalCardStepsLabel"
+                        >
+                              Steps:
+                        </span>
+                        <span>
+                              2
+                        </span>
+                        <span
+                              className="GoalCardStepsBar"
+                        >
+                              /
+                        </span>
+                        <span>
+                              4
+                        </span>
+                  </div>
+                  <progress
+                        className="GoalCardProgressBar"
+                        max={4}
+                        value={2}
+                  />
+                  <button
+                        className="GoalCardSwitchView"
+                  />
+            </div>
+      </div>
+      <div
+            className="GoalCardInfo"
+      >
+            <ul
+                  className="GoalCardChecklist"
+            >
+                  <GoalCardItem
+                        isComplete={true}
+                        label="test1"
+                  />
+                  <GoalCardItem
+                        isComplete={true}
+                        label="test2"
+                  />
+                  <GoalCardItem
+                        label="test3"
+                  />
+                  <GoalCardItem
+                        label="test4"
+                  />
+                  <li
+                        className="GoalCardAddNew"
+                  >
+                        <button
+                              className="GoalCardAddNewButton"
+                              onClick={[Function]}
+                        >
+                              <span
+                                    className="GoalCardAddNewButtonIcon"
+                              >
+                                    +
+                              </span>
+                               add a new step
+                        </button>
+                  </li>
+            </ul>
+      </div>
+</li>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <GoalCard
+        onClick={[Function]}
+        title="Lorem Ipsum"
+>
+        <GoalCardItem
+                isComplete={true}
+                label="test1"
+        />
+        <GoalCardItem
+                isComplete={true}
+                label="test2"
+        />
+        <GoalCardItem
+                label="test3"
+        />
+        <GoalCardItem
+                label="test4"
+        />
+</GoalCard>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": GoalCard {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "children": Array [
+            <GoalCardItem
+              isComplete={true}
+              label="test1"
+/>,
+            <GoalCardItem
+              isComplete={true}
+              label="test2"
+/>,
+            <GoalCardItem
+              label="test3"
+/>,
+            <GoalCardItem
+              label="test4"
+/>,
+          ],
+          "onClick": [Function],
+          "title": "Lorem Ipsum",
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <li
+          className="GoalCard"
+>
+          <div
+                    className="GoalCardIntro"
+          >
+                    <h3
+                              className="GoalCardTitle"
+                    >
+                              Lorem Ipsum
+                    </h3>
+                    <p
+                              className="GoalCardDescription"
+                    />
+                    <div
+                              className="GoalCardProgress"
+                    >
+                              <div
+                                        className="GoalCardSteps"
+                              >
+                                        <span
+                                                  className="GoalCardStepsLabel"
+                                        >
+                                                  Steps:
+                                        </span>
+                                        <span>
+                                                  2
+                                        </span>
+                                        <span
+                                                  className="GoalCardStepsBar"
+                                        >
+                                                  /
+                                        </span>
+                                        <span>
+                                                  4
+                                        </span>
+                              </div>
+                              <progress
+                                        className="GoalCardProgressBar"
+                                        max={4}
+                                        value={2}
+                              />
+                              <button
+                                        className="GoalCardSwitchView"
+                              />
+                    </div>
+          </div>
+          <div
+                    className="GoalCardInfo"
+          >
+                    <ul
+                              className="GoalCardChecklist"
+                    >
+                              <GoalCardItem
+                                        isComplete={true}
+                                        label="test1"
+                              />
+                              <GoalCardItem
+                                        isComplete={true}
+                                        label="test2"
+                              />
+                              <GoalCardItem
+                                        label="test3"
+                              />
+                              <GoalCardItem
+                                        label="test4"
+                              />
+                              <li
+                                        className="GoalCardAddNew"
+                              >
+                                        <button
+                                                  className="GoalCardAddNewButton"
+                                                  onClick={[Function]}
+                                        >
+                                                  <span
+                                                            className="GoalCardAddNewButtonIcon"
+                                                  >
+                                                            +
+                                                  </span>
+                                                   add a new step
+                                        </button>
+                              </li>
+                    </ul>
+          </div>
+</li>,
+        "_debugID": 2,
+        "_renderedOutput": <li
+          className="GoalCard"
+>
+          <div
+                    className="GoalCardIntro"
+          >
+                    <h3
+                              className="GoalCardTitle"
+                    >
+                              Lorem Ipsum
+                    </h3>
+                    <p
+                              className="GoalCardDescription"
+                    />
+                    <div
+                              className="GoalCardProgress"
+                    >
+                              <div
+                                        className="GoalCardSteps"
+                              >
+                                        <span
+                                                  className="GoalCardStepsLabel"
+                                        >
+                                                  Steps:
+                                        </span>
+                                        <span>
+                                                  2
+                                        </span>
+                                        <span
+                                                  className="GoalCardStepsBar"
+                                        >
+                                                  /
+                                        </span>
+                                        <span>
+                                                  4
+                                        </span>
+                              </div>
+                              <progress
+                                        className="GoalCardProgressBar"
+                                        max={4}
+                                        value={2}
+                              />
+                              <button
+                                        className="GoalCardSwitchView"
+                              />
+                    </div>
+          </div>
+          <div
+                    className="GoalCardInfo"
+          >
+                    <ul
+                              className="GoalCardChecklist"
+                    >
+                              <GoalCardItem
+                                        isComplete={true}
+                                        label="test1"
+                              />
+                              <GoalCardItem
+                                        isComplete={true}
+                                        label="test2"
+                              />
+                              <GoalCardItem
+                                        label="test3"
+                              />
+                              <GoalCardItem
+                                        label="test4"
+                              />
+                              <li
+                                        className="GoalCardAddNew"
+                              >
+                                        <button
+                                                  className="GoalCardAddNewButton"
+                                                  onClick={[Function]}
+                                        >
+                                                  <span
+                                                            className="GoalCardAddNewButtonIcon"
+                                                  >
+                                                            +
+                                                  </span>
+                                                   add a new step
+                                        </button>
+                              </li>
+                    </ul>
+          </div>
+</li>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <GoalCard
+    onClick={[Function]}
+    title="Lorem Ipsum"
+>
+    <GoalCardItem
+        isComplete={true}
+        label="test1"
+    />
+    <GoalCardItem
+        isComplete={true}
+        label="test2"
+    />
+    <GoalCardItem
+        label="test3"
+    />
+    <GoalCardItem
+        label="test4"
+    />
+</GoalCard>,
+}
+`;

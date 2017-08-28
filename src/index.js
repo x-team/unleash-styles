@@ -16,8 +16,8 @@ import MenuItem from './components/Menu/MenuItem'
 import MenuButton from './components/Menu/MenuButton'
 import Modal from './components/Modal/Modal'
 import Paragraph from './components/Paragraph/Paragraph'
-import SolcialIcon from './components/SocialIcon/SocialIcon'
-import SolcialIcons from './components/SocialIcon/SocialIcons'
+import SocialIcon from './components/SocialIcon/SocialIcon'
+import SocialIcons from './components/SocialIcon/SocialIcons'
 import Tab from './components/Tab/Tab'
 import Tabs from './components/Tab/Tabs'
 import Tag from './components/Tag/Tag'
@@ -45,8 +45,8 @@ export {
   MenuButton,
   Modal,
   Paragraph,
+  SocialIcon,
   SocialIcons,
-  SolcialIcon,
   Tab,
   Tabs,
   Tag,

@@ -1,10 +1,10 @@
 {
   "name": "unleash-styles",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "React components for X-Team Unleash App",
   "main": "lib/bundle.js",
   "scripts": {
-    "postinstall": "[ \"$NODE_ENV\" != production ] && styleguidist build",
+    "postinstall": "[ \"$NODE_ENV\" == development ] && styleguidist build",
     "test": "jest",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",

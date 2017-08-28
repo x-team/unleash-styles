@@ -6,13 +6,34 @@ import Tabs from './components/Tab/Tabs'
 import Avatar from './components/Avatar/Avatar'
 import Menu from './components/Menu/Menu'
 import MenuItem from './components/Menu/MenuItem'
+import MenuButton from './components/Menu/MenuButton'
 
 export {
-  Logo,
   AppBar,
+  Avatar,
+  AvatarButton,
+  FloatingButton,
+  GoalCard,
+  GoalCardItem,
+  Graph,
+  Header,
+  Input,
+  Link,
+  Logo,
+  Menu,
+  MenuItem,
+  MenuButton,
+  Modal,
+  Paragraph,
+  SocialIcons,
+  SolcialIcon,
   Tab,
   Tabs,
-  Avatar,
-  Menu,
-  MenuItem
+  Tag,
+  Tags,
+  Tempo,
+  TempoLegend,
+  TempoLegendItem,
+  TextArea,
+  Timeline
 }

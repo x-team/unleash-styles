@@ -36,7 +36,7 @@ class Tab extends Component {
     )
     return (
       <li className={tabClasses}>
-        <a a href={'#'} onClick={(e) => this.handleClick(e, onClick)} className={tabLinkClasses}>
+        <a href={'#'} onClick={(e) => this.handleClick(e, onClick)} className={tabLinkClasses}>
           <span className={tabLinkLabelClasses}>{label}</span>
         </a>
       </li>

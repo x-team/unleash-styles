@@ -31,16 +31,16 @@ ShallowWrapper {
             className="TabsList"
         >
             <Tab
-                href="#"
                 isCurrent={true}
                 isShowing={false}
                 label="test"
+                onClick={[Function]}
             />
             <Tab
-                href="#"
                 isCurrent={false}
                 isShowing={false}
                 label="test2"
+                onClick={[Function]}
             />
         </ul>
     </nav>
@@ -69,16 +69,16 @@ ShallowWrapper {
                   className="TabsList"
             >
                   <Tab
-                        href="#"
                         isCurrent={true}
                         isShowing={false}
                         label="test"
+                        onClick={[Function]}
                   />
                   <Tab
-                        href="#"
                         isCurrent={false}
                         isShowing={false}
                         label="test2"
+                        onClick={[Function]}
                   />
             </ul>
       </nav>
@@ -92,16 +92,16 @@ ShallowWrapper {
       "_context": Object {},
       "_currentElement": <Tabs>
         <Tab
-                href="#"
                 isCurrent={true}
                 isShowing={false}
                 label="test"
+                onClick={[Function]}
         />
         <Tab
-                href="#"
                 isCurrent={false}
                 isShowing={false}
                 label="test2"
+                onClick={[Function]}
         />
 </Tabs>,
       "_debugID": 1,
@@ -114,16 +114,16 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Tab
-              href="#"
               isCurrent={true}
               isShowing={false}
               label="test"
+              onClick={[Function]}
 />,
             <Tab
-              href="#"
               isCurrent={false}
               isShowing={false}
               label="test2"
+              onClick={[Function]}
 />,
           ],
         },
@@ -172,16 +172,16 @@ ShallowWrapper {
                               className="TabsList"
                     >
                               <Tab
-                                        href="#"
                                         isCurrent={true}
                                         isShowing={false}
                                         label="test"
+                                        onClick={[Function]}
                               />
                               <Tab
-                                        href="#"
                                         isCurrent={false}
                                         isShowing={false}
                                         label="test2"
+                                        onClick={[Function]}
                               />
                     </ul>
           </nav>
@@ -210,16 +210,16 @@ ShallowWrapper {
                               className="TabsList"
                     >
                               <Tab
-                                        href="#"
                                         isCurrent={true}
                                         isShowing={false}
                                         label="test"
+                                        onClick={[Function]}
                               />
                               <Tab
-                                        href="#"
                                         isCurrent={false}
                                         isShowing={false}
                                         label="test2"
+                                        onClick={[Function]}
                               />
                     </ul>
           </nav>
@@ -237,16 +237,16 @@ ShallowWrapper {
   "root": [Circular],
   "unrendered": <Tabs>
     <Tab
-        href="#"
         isCurrent={true}
         isShowing={false}
         label="test"
+        onClick={[Function]}
     />
     <Tab
-        href="#"
         isCurrent={false}
         isShowing={false}
         label="test2"
+        onClick={[Function]}
     />
 </Tabs>,
 }

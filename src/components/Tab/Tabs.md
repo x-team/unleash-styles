@@ -1,14 +1,14 @@
 Tabs component:
 
     <Tabs>
-      <Tab label="quite long text" isCurrent />
-      <Tab label="two" />
-      <Tab label="three" />
-      <Tab label="four" />
-      <Tab label="five" />
-      <Tab label="six" />
-      <Tab label="seven" />
-      <Tab label="eight" />
-      <Tab label="nine" />
-      <Tab label="ten" />
+      <Tab label="quite long text" isCurrent onClick={() => {}} />
+      <Tab label="two" onClick={() => {}} />
+      <Tab label="three" onClick={() => {}} />
+      <Tab label="four" onClick={() => {}} />
+      <Tab label="five" onClick={() => {}} />
+      <Tab label="six" onClick={() => {}} />
+      <Tab label="seven" onClick={() => {}} />
+      <Tab label="eight" onClick={() => {}} />
+      <Tab label="nine" onClick={() => {}} />
+      <Tab label="ten" onClick={() => {}} />
     </Tabs>

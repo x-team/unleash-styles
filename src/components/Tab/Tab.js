@@ -9,9 +9,20 @@ import styles from './Tab.css'
  */
 class Tab extends Component {
   static defaultProps: Object
+  handleClick: Function
+
+  constructor (props: Object) {
+    super(props)
+    this.handleClick = this.handleClick.bind(this)
+  }
+
+  handleClick (e: Object, onClick: Function) {
+    e.preventDefault()
+    onClick()
+  }
 
   render () {
-    const { label, isCurrent, href, isShowing } = this.props
+    const { label, isCurrent, isShowing, onClick } = this.props
     const tabClasses = classNames(
       styles.Tab,
       (isShowing) && styles.is_showing
@@ -25,7 +36,7 @@ class Tab extends Component {
     )
     return (
       <li className={tabClasses}>
-        <a href={href} className={tabLinkClasses}>
+        <a a href={'#'} onClick={(e) => this.handleClick(e, onClick)} className={tabLinkClasses}>
           <span className={tabLinkLabelClasses}>{label}</span>
         </a>
       </li>
@@ -36,8 +47,8 @@ class Tab extends Component {
 Tab.defaultProps = {
   label: 'Label',
   isCurrent: false,
-  href: '#',
-  isShowing: false
+  isShowing: false,
+  onClick: val => val
 }
 
 Tab.propTypes = {
@@ -45,10 +56,10 @@ Tab.propTypes = {
   label: PropTypes.string,
   /** I currently activated */
   isCurrent: PropTypes.bool,
-  /** href property */
-  href: PropTypes.string,
   /** Show when hidden */
-  isShowing: PropTypes.bool
+  isShowing: PropTypes.bool,
+  /** onClick handler */
+  onCLick: PropTypes.func
 }
 
 export default Tab

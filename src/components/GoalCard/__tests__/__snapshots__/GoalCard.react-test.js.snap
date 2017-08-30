@@ -65,16 +65,20 @@ ShallowWrapper {
             <GoalCardItem
                 isComplete={true}
                 label="test1"
+                onClick={[Function]}
             />
             <GoalCardItem
                 isComplete={true}
                 label="test2"
+                onClick={[Function]}
             />
             <GoalCardItem
                 label="test3"
+                onClick={[Function]}
             />
             <GoalCardItem
                 label="test4"
+                onClick={[Function]}
             />
             <li
                 className="GoalCardAddNew"
@@ -152,16 +156,20 @@ ShallowWrapper {
                   <GoalCardItem
                         isComplete={true}
                         label="test1"
+                        onClick={[Function]}
                   />
                   <GoalCardItem
                         isComplete={true}
                         label="test2"
+                        onClick={[Function]}
                   />
                   <GoalCardItem
                         label="test3"
+                        onClick={[Function]}
                   />
                   <GoalCardItem
                         label="test4"
+                        onClick={[Function]}
                   />
                   <li
                         className="GoalCardAddNew"
@@ -213,6 +221,7 @@ ShallowWrapper {
       "_instance": GoalCard {
         "_reactInternalInstance": [Circular],
         "context": Object {},
+        "handleGoalCardItemToggleClick": [Function],
         "props": Object {
           "children": Array [
             <GoalCardItem
@@ -235,6 +244,8 @@ ShallowWrapper {
         },
         "refs": Object {},
         "state": Object {
+          "goalItemsCompletedCount": 2,
+          "goalItemsCount": 4,
           "isOpen": false,
         },
         "updater": Object {
@@ -312,16 +323,20 @@ ShallowWrapper {
                               <GoalCardItem
                                         isComplete={true}
                                         label="test1"
+                                        onClick={[Function]}
                               />
                               <GoalCardItem
                                         isComplete={true}
                                         label="test2"
+                                        onClick={[Function]}
                               />
                               <GoalCardItem
                                         label="test3"
+                                        onClick={[Function]}
                               />
                               <GoalCardItem
                                         label="test4"
+                                        onClick={[Function]}
                               />
                               <li
                                         className="GoalCardAddNew"
@@ -399,16 +414,20 @@ ShallowWrapper {
                               <GoalCardItem
                                         isComplete={true}
                                         label="test1"
+                                        onClick={[Function]}
                               />
                               <GoalCardItem
                                         isComplete={true}
                                         label="test2"
+                                        onClick={[Function]}
                               />
                               <GoalCardItem
                                         label="test3"
+                                        onClick={[Function]}
                               />
                               <GoalCardItem
                                         label="test4"
+                                        onClick={[Function]}
                               />
                               <li
                                         className="GoalCardAddNew"

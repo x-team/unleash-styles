@@ -1,6 +1,5 @@
 .Tab {
   display: inline-block;
-  margin-right: 2rem;
 }
 .TabNavButton {
   display: none;
@@ -23,13 +22,12 @@
 }
 
 @media screen and (max-width: 767px) {
-
 	.TabNavButton {
     display: block;
     font: 600 14px/70px 'Montserrat',sans-serif;
     text-transform: uppercase;
     border: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     color: #f33c57;
 		background-color: #fff;
@@ -99,4 +97,10 @@
   .is_showing {
     display: block;
   }
+}
+
+@media screen and (min-width: 767px) {
+	.Tab {
+	  margin-right: 2rem;
+	}
 }

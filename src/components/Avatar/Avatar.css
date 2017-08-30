@@ -24,7 +24,3 @@
   border-width: 5px 4px 0 4px;
   border-color: #eeddfc transparent transparent transparent;
 }
-
-.AvatarButton:checked {
-  display: block;
-}

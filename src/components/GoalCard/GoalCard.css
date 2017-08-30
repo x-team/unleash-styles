@@ -210,11 +210,11 @@
 	animation-name: fade;
 	animation-iteration-count: 1;
 }
-.GoalCardSwitchView.is-open::after {
+.GoalCardSwitchViewIsOpen::after {
 	transform: rotate(0deg);
 	align-self: baseline;
 }
-.GoalCardSwitchView.is-open::before {
+.GoalCardSwitchViewIsOpen::before {
 	content: 'Show less';
 	animation-duration: .5s;
 	animation-name: fadeIn;
@@ -243,7 +243,7 @@
 .GoalCardInfo {
 	display: none;
 }
-.GoalCard.is-open .GoalCardInfo {
+.GoalCardIsOpen .GoalCardInfo {
 	display: block;
 }
 

@@ -1,19 +1,45 @@
 /** @flow */
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import classNames from 'classnames'
 import styles from './GoalCard.css'
 
 /**
  * GoalCard
  */
 class GoalCard extends Component {
+  state: {
+    isOpen: boolean
+  }
+
+  constructor (props: Object) {
+    super(props)
+    this.state = {
+      isOpen: false
+    }
+  }
+
+  handleClick () {
+    this.setState({
+      isOpen: !this.state.isOpen
+    })
+  }
+
   render () {
     const { title, onClick } = this.props
     const goalItemsCount = this.props.children.length
     const goalItemsCompletedCount = this.props.children.filter((item) => (item.props.isComplete)).length
+    const switchViewClasses = classNames(
+      styles.GoalCardSwitchView,
+      this.state.isOpen && styles.GoalCardSwitchViewIsOpen
+    )
+    const goalCardClasses = classNames(
+      styles.GoalCard,
+      this.state.isOpen && styles.GoalCardIsOpen
+    )
 
     return (
-      <li className={styles.GoalCard}>
+      <li className={goalCardClasses}>
         <div className={styles.GoalCardIntro}>
           <h3 className={styles.GoalCardTitle}>{title}</h3>
           <p className={styles.GoalCardDescription} />
@@ -25,7 +51,7 @@ class GoalCard extends Component {
               <span>{goalItemsCount}</span>
             </div>
             <progress className={styles.GoalCardProgressBar} max={goalItemsCount} value={goalItemsCompletedCount} />
-            <button className={styles.GoalCardSwitchView} />
+            <button onClick={() => this.handleClick()} className={switchViewClasses} />
           </div>
         </div>
         <div className={styles.GoalCardInfo}>

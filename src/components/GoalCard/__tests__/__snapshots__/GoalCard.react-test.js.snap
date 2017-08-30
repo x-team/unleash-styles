@@ -52,6 +52,7 @@ ShallowWrapper {
             />
             <button
                 className="GoalCardSwitchView"
+                onClick={[Function]}
             />
         </div>
     </div>
@@ -138,6 +139,7 @@ ShallowWrapper {
                   />
                   <button
                         className="GoalCardSwitchView"
+                        onClick={[Function]}
                   />
             </div>
       </div>
@@ -232,7 +234,9 @@ ShallowWrapper {
           "title": "Lorem Ipsum",
         },
         "refs": Object {},
-        "state": null,
+        "state": Object {
+          "isOpen": false,
+        },
         "updater": Object {
           "enqueueCallback": [Function],
           "enqueueCallbackInternal": [Function],
@@ -295,6 +299,7 @@ ShallowWrapper {
                               />
                               <button
                                         className="GoalCardSwitchView"
+                                        onClick={[Function]}
                               />
                     </div>
           </div>
@@ -381,6 +386,7 @@ ShallowWrapper {
                               />
                               <button
                                         className="GoalCardSwitchView"
+                                        onClick={[Function]}
                               />
                     </div>
           </div>

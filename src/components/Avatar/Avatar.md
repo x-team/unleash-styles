@@ -1,3 +1,3 @@
-Avatar small:
+Avatar component:
 
-    <Avatar label="ON" />
+    <Avatar imgSrc="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />

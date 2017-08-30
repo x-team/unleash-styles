@@ -22,5 +22,8 @@ module.exports = {
   ],
   styleguideComponents: {
     Wrapper: path.join(__dirname, '/styleguidist/style/wrapper/Wrapper.js')
-  }
+  },
+  theme: {
+    maxWidth: 'auto'
+  },
 };

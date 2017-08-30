@@ -8,4 +8,6 @@
   right: 18px;
   cursor: pointer;
   display: block;
+  background-color: transparent;
+  border: none;
 }

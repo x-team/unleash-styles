@@ -7,8 +7,8 @@ import Tab from '../Tab'
 test('Tabs renders correctly', () => {
   const wrapper = shallow(
     <Tabs>
-      <Tab label='test' isCurrent />
-      <Tab label='test2' />
+      <Tab label='test' onClick={() => {}} isCurrent />
+      <Tab label='test2' onClick={() => {}} />
     </Tabs>
   )
   expect(wrapper).toMatchSnapshot()

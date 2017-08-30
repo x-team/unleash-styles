@@ -1,0 +1,72 @@
+@media screen and (min-width: 768px) {
+  .Tempo {
+    max-width: 33%;
+    width: 372px;
+    margin-left: auto;
+  }
+}
+
+.Tempo_title {
+  font: 400 14px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #b8b7bc;
+  margin: 0 0 20px;
+}
+@media screen and (max-width: 767px) {
+  .Tempo_title {
+    margin-top: 40px;
+  }
+}
+.Tempo_graph {
+  width: 100%;
+  overflow: hidden;
+}
+.Tempo_graph_img {
+  min-width: 100%;
+}
+
+.Tempo_goals {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 1024px) {
+  .Tempo_goals {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* Goals vertical aligned on Mobile & Tablets */
+  .Tempo_goals {
+    margin-top: 1em;
+    padding: .75em 0 .5em;
+    border-top: 1px solid #e9edee;
+    border-bottom: 1px solid #e9edee;
+  }
+  .Tempo_goal {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.Tempo_goal_label {
+  display: block;
+  font: 14px/3 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #b8b7bc;
+}
+.Tempo_goal_amount {
+  display: block;
+  font: 20px 'Montserrat', sans-serif;
+  color: #242424;
+}

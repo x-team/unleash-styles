@@ -11,7 +11,7 @@ const style = {
 export default class Wrapper extends Component {
   render() {
     return (
-      <div style={style} className="styles">
+      <div style={style} className={styles}>
         <IntlProvider locale="en">
           {this.props.children}
         </IntlProvider>

@@ -1,30 +1,34 @@
-.AvatarButton {
-  display: none;
-}
-.AvatarButtonLabel {
-  display: inline-block;
-  position: relative;
-  font: 700 11px/36px 'Montserrat', sans-serif;
-  text-align: center;
-  width: 36px;
-  height: 36px;
+.Avatar {
   border-radius: 50%;
-  background-color: #eeddfc;
-  color: #8e15fa;
-  cursor: pointer;
-}
-.AvatarButtonLabel::after {
-  content: '';
-  position: absolute;
-  right: -18px;
-  top: calc(50% - 2px);
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 5px 4px 0 4px;
-  border-color: #eeddfc transparent transparent transparent;
+  overflow: hidden;
 }
 
-.AvatarButton:checked {
-  display: block;
+@media screen and (max-width: 767px) {
+  .Avatar {
+    min-width: 69px;
+    min-height: 69px;
+    width: 69px;
+    height: 69px;
+    position: absolute;
+    top: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Avatar {
+    min-width: 141px;
+    min-height: 141px;
+    width: 141px;
+    height: 141px;
+    margin-right: 19px;
+    flex: 0 0 141px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Avatar {
+    margin-right: 29px;
+  }
+}
+
+.Avatar_img {
+  max-width: 100%;
 }

@@ -1,0 +1,107 @@
+.Timeline_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .Timeline_header::after {
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: calc(50% - 1px);
+    content: '';
+    width: calc(100% - 60px);
+    height: 1px;
+    background-color: #e9e9e9;
+    z-index: 0;
+  }
+}
+
+.Timeline_search {
+  position: relative;
+  padding-left: 16px;
+  background-color: #fff;
+  width: 8rem;
+  z-index: 1;
+}
+.Timeline_search::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: calc(50% - 9px);
+  content: url(../../assets/search.svg);
+  width: 16px;
+  height: 15px;
+}
+
+.Timeline_search_input {
+  font: 14px/2 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #9a9d9e;
+  border: none;
+  padding: 0 11px;
+  width: 8rem;
+}
+.Timeline_search_input::placeholder {
+  color: #9a9d9e;
+}
+
+.Timeline_items {
+  list-style: none;
+  margin: 0;
+  padding: 0 18px;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .Timeline_items {
+    padding: 0 30px;
+    margin-left: 65px;
+  }
+  .Timeline_items::before {
+    content: '';
+    position: absolute;
+    left: 21px;
+    top: -60px;
+    width: 2px;
+    height: calc(100% + 60px);
+    background-color: #e9edee;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Timeline_items {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .Timeline_items::before {
+    top: -36px;
+    left: calc(50% - 4px);
+  }
+}
+
+.Timeline_date_label {
+  margin: 0 18px;
+  font: 14px/34px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #34323b;
+  background-color: #e1e1e1;
+}
+@media screen and (min-width: 768px) {
+  .Timeline_date_label {
+    margin: 0 30px;
+    width: 115px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Timeline_date_label {
+    margin: 0;
+    position: absolute;
+    left: calc(50% - 62px);
+    margin-top: -70px;
+  }
+}

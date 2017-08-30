@@ -352,7 +352,7 @@ ShallowWrapper {
     <div
         onClick={[Function]}
     >
-        <Avatar
+        <AvatarButton
             label="test"
             onClick={[Function]}
         />
@@ -377,7 +377,7 @@ ShallowWrapper {
       <div
             onClick={[Function]}
       >
-            <Avatar
+            <AvatarButton
                   label="test"
                   onClick={[Function]}
             />
@@ -405,7 +405,7 @@ ShallowWrapper {
       "_currentElement": <Menu
         isAlwaysOpened={false}
         menuButton={
-                <Avatar
+                <AvatarButton
                         label="test"
                         onClick={[Function]}
                 />
@@ -438,7 +438,7 @@ ShallowWrapper {
 />,
           ],
           "isAlwaysOpened": false,
-          "menuButton": <Avatar
+          "menuButton": <AvatarButton
             label="test"
             onClick={[Function]}
 />,
@@ -471,7 +471,7 @@ ShallowWrapper {
           <div
                     onClick={[Function]}
           >
-                    <Avatar
+                    <AvatarButton
                               label="test"
                               onClick={[Function]}
                     />
@@ -496,7 +496,7 @@ ShallowWrapper {
           <div
                     onClick={[Function]}
           >
-                    <Avatar
+                    <AvatarButton
                               label="test"
                               onClick={[Function]}
                     />
@@ -528,7 +528,7 @@ ShallowWrapper {
   "unrendered": <Menu
     isAlwaysOpened={false}
     menuButton={
-        <Avatar
+        <AvatarButton
             label="test"
             onClick={[Function]}
         />

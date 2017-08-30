@@ -1,18 +1,18 @@
 {
   "name": "unleash-styles",
-  "scripts": {
-    "postdeploy": "npm install"
-  },
+  "scripts": {},
   "env": {
-    "NODE_ENV": "development",
     "NPM_CONFIG_PRODUCTION": "false",
-    "NODE_MODULES_CACHE": "false"
+    "NODE_ENV": "development"
   },
   "formation": {},
   "addons": [],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/hone/heroku-buildpack-static"
     }
   ]
 }

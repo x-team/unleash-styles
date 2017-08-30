@@ -1,0 +1,15 @@
+.Icon {
+  display: inline-block;
+}
+.Icon:not(:last-child) {
+	margin-right: 20px;
+}
+.IconLinkPath {
+	fill: #b2b6bc;
+  fill-rule: evenodd;
+  opacity: 0.5;
+  transition: opacity .2s ease-out;
+}
+.IconLink:hover .IconLink {
+	opacity: 1;
+}

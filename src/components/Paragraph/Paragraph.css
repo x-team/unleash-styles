@@ -1,0 +1,16 @@
+.Paragraph {
+	font: 14px 'Source Sans Pro', sans-serif;
+	color: #6e6d72;
+	margin: 0;
+}
+@media screen and (max-width: 767px) {
+	.Paragraph {
+		margin-left: 83px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.Paragraph {
+		font-size: 18px;
+		margin: 20px 0 23px;
+	}
+}

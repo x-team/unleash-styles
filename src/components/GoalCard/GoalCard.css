@@ -1,0 +1,412 @@
+/* GoalCard.css */
+
+@media screen and (min-width: 1024px) {
+	.GoalCard {
+		width: calc(50% - 9px);
+		align-self: flex-end;
+    list-style: none;
+	}
+	.GoalCard:nth-child(even) {
+		align-self: flex-start;
+	}
+}
+
+.GoalCardIntro {
+	margin-top: 40px;
+	padding: 28px 18px 18px;
+	border: 1px solid #e9edee;
+	position: relative;
+}
+
+@media screen and (min-width: 768px) {
+	.GoalCardIntro {
+		margin: 30px;
+		padding: 35px 30px 20px;
+	}
+	.GoalCardIntro:first-child {
+		margin-top: 60px;
+	}
+}
+
+.GoalCardIntro::before {
+	position: absolute;
+	content: '';
+	border-radius: 50%;
+	width: 18px;
+	height: 18px;
+	border: 2px solid #e9edee;
+	background-color: #fff;
+	top: -12px;
+	left: calc(50% - 10px);
+}
+.GoalCardIntro--full::before {
+	content: "✓";
+	text-align: center;
+	color: #fff;
+	background-color: #e9edee;
+}
+
+@media screen and (min-width: 768px) {
+	.GoalCardIntro::before {
+		left: -50px;
+		top: calc(50% - 10px);
+	}
+}
+@media screen and (min-width: 1024px) {
+	.GoalCard:nth-child(odd) .GoalCardIntro::before {
+		left: -54px;
+		top: calc(50% - 10px);
+	}
+	.GoalCard:nth-child(even) .GoalCardIntro::before {
+		left: auto;
+		right: -48px;
+		top: calc(50% - 10px);
+	}
+}
+
+/* top right corner dots */
+.GoalCardIntro::after {
+	position: absolute;
+	content: url(./images/three-dots.svg);
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	top: 25px;
+	right: 25px;
+	cursor: pointer;
+	display: block;
+}
+@media screen and (min-width: 768px) {
+	.GoalCardIntro::after {
+		top: 32px;
+		right: 35px;
+	}
+}
+
+.GoalCardTitle {
+	font: 700 22px/1 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #34323b;
+	margin: 0;
+}
+@media screen and (max-width: 767px) {
+	.GoalCardTitle {
+		max-width: 60%;
+	}
+}
+@media screen and (min-width: 768px) {
+	.GoalCardTitle {
+		font-size: 24px;
+	}
+}
+
+.GoalCardDescription {
+	font-size: 14px;
+	line-height: 20px;
+	color: #34323b;
+	margin: 15px 0;
+}
+
+.GoalCardProgress {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.GoalCardSteps {
+	display: inline-block;
+	font: 14px 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #9a9d9e;
+	min-width: 90px;
+}
+.GoalCardStepsLabel {
+	display: inline-block;
+	margin-right: 2px;
+}
+.GoalCardStepsBar {
+	margin: 0 -1px;
+	display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+	.GoalCardProgressBar {
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) {
+	.GoalCardProgressBar {
+		flex-grow: 1;
+		margin: 0 20px;
+		height: 6px;
+		border-radius: 8px;
+		background-color: #e1e1e1;
+	}
+	.GoalCardProgressBar::-webkit-progress-bar {
+		height: 6px;
+		border-radius: 8px;
+		background-color: #e1e1e1;
+	}
+	.GoalCardProgressBar::-moz-progress-bar {
+		height: 6px;
+		border-radius: 8px;
+		background-color: #e1e1e1;
+	}
+	.GoalCardProgressBar::-webkit-progress-value {
+		border-radius: 8px 0 0 8px;
+		height: 6px;
+		background-color: #5fcf21;
+	}
+	.GoalCardProgressBar::-moz-progress-value {
+		border-radius: 8px 0 0 8px;
+		height: 6px;
+		background-color: #5fcf21;
+	}
+	.GoalCardProgressBar::-ms-fill {
+		border-radius: 8px 0 0 8px;
+		height: 6px;
+		background-color: #5fcf21;
+	}
+
+	.GoalCardProgressBar--red::-webkit-progress-value {
+		background-color: red;
+	}
+	.GoalCardProgressBar--red::-moz-progress-value {
+		background-color: red;
+	}
+	.GoalCardProgressBar--red::-ms-fill {
+		background-color: red;
+	}
+}
+
+
+.GoalCardSwitchView {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	font: 14px 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #9a9d9e;
+	padding: 5px;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	background-color: transparent;
+	min-width: 130px;
+}
+.GoalCardSwitchView::after {
+	display: inline-block;
+	content: url(./images/arrow--up.svg);
+	transform: rotate(180deg);
+	width: 15px;
+	height: 20px;
+	margin-left: 10px;
+	/*transition: transform .3s ease-out;*/
+}
+.GoalCardSwitchView::before {
+	line-height: 20px;
+	content: 'Show more';
+	animation-duration: .5s;
+	animation-name: fade;
+	animation-iteration-count: 1;
+}
+.GoalCardSwitchView.is-open::after {
+	transform: rotate(0deg);
+	align-self: baseline;
+}
+.GoalCardSwitchView.is-open::before {
+	content: 'Show less';
+	animation-duration: .5s;
+	animation-name: fadeIn;
+	animation-iteration-count: 1;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: .5;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fade {
+	from {
+		opacity: .5;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* GoalCardChecklist.css */
+
+.GoalCardInfo {
+	display: none;
+}
+.GoalCard.is-open .GoalCardInfo {
+	display: block;
+}
+
+/* Desktop layout */
+@media screen and (min-width: 1024px) {
+	.GoalCardInfo {
+		margin-left: 60px;
+	}
+}
+
+.GoalCardChecklist {
+	position: relative;
+	list-style: none;
+	margin: 30px 0 0 20px;
+	padding: 0;
+}
+@media screen and (min-width: 768px) {
+	.GoalCardChecklist {
+		margin-left: 60px;
+		max-width: calc(100% - 120px);
+	}
+}
+@media screen and (min-width: 1024px) {
+	.GoalCardChecklist {
+		margin: 0;
+		max-width: 100%;
+	}
+}
+.GoalCardChecklist:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: -30px;
+	width: 2px;
+	height: calc(100% - 25px);
+	background-color: #e9edee;
+}
+
+.GoalCardItemCheckbox {
+	margin: 0 0 25px;
+	position: relative;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+@media screen and (min-width: 1024px) {
+	.GoalCardItemCheckbox {
+		max-width: calc(100% - 60px);
+	}
+}
+
+.GoalCardItemCheckbox::after {
+	position: absolute;
+	content: url(./images/three-dots.svg);
+	border-radius: 50%;
+	width: 20px;
+	height: 4px;
+	top: 0;
+	right: 0;
+}
+@media screen and (min-width: 1024px) {
+	.GoalCardItemCheckbox::after {
+		transition: opacity .3s ease-out;
+		opacity: 0;
+		visibility: hidden;
+	}
+	.GoalCardItemCheckbox:hover::after {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.GoalCardItemInput {
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	flex: 0 0 20px;
+	position: relative;
+}
+
+/* checkbox styling */
+.GoalCardItemInput::after {
+	display: inline-block;
+	content: '';
+	position: absolute;
+	left: -18px; top: -7px;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #e9edee;
+	background-color: #fff;
+	transition: background-color .2s ease-out;
+}
+.GoalCardItemCheckbox:hover .GoalCardItemInput::after,
+.GoalCardItemInput:checked::after {
+	content: '✓';
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.GoalCardItemCheckbox:hover .GoalCardItemInput:not(:checked)::after {
+	color: #5fcf21;
+}
+.GoalCardItemInput:checked::after {
+	border-color: #5fcf21;
+	background-color: #5fcf21;
+	color: #fff;
+}
+.GoalCardItemInput:checked + .GoalCardItemLabel {
+	text-decoration: line-through;
+	color: #b8b7bc;
+}
+
+.GoalCardItemLabel,
+.GoalCardItemCheckbox__edit {
+	display: block;
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 600;
+	color: #34323b;
+	padding-right: 30px;
+	margin-left: 5px;
+}
+.GoalCardItemCheckbox__edit {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	border: 2px solid #e9edee;
+	padding: 0 30px 0 5px;
+	width: 100%;
+}
+
+/* disabled checkboxes */
+.GoalCardItemCheckbox:hover .GoalCardItemInput:disabled::after,
+.GoalCardItemInput:disabled::after {
+	content: '';
+}
+
+
+/* add a new step button */
+.GoalCardAddNew.is-hidden {
+	display: none;
+}
+.GoalCardAddNew {
+	margin-left: -8px;
+}
+.GoalCardAddNewButton {
+	font: 14px/1 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #f33c57;
+	border: none;
+	padding: 5px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.GoalCardAddNewButtonIcon {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 22px;
+	margin-right: 4px;
+}

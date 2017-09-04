@@ -35,7 +35,7 @@ class GoalCardItem extends Component {
     return (
       <li className={styles.GoalCardItemCheckbox}>
         <input onChange={() => this.handleCheckboxChange()} className={styles.GoalCardItemInput} type='checkbox' id={label} checked={this.state.isComplete} />
-        <label className={styles.GoalCardItemLabel} for={label}>
+        <label className={styles.GoalCardItemLabel} htmlFor={label}>
           {label}
         </label>
       </li>

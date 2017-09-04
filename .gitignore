@@ -63,3 +63,6 @@ typings/
 # build files
 lib/
 styleguide/
+
+# OS files
+.DS_Store

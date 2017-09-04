@@ -9,7 +9,7 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "lint": "standard src/**/*.js",
-    "build": "webpack -p",
+    "build": "./bin/webpack -p",
     "deploy": "./deploy-ghpages.sh",
     "prepublish": "npm run build"
   },

@@ -11,8 +11,8 @@ cache:
   directories:
     - node_modules
 
+before_deploy: "npm version --patch"
 deploy:
-  before_deploy: "npm version --patch"
   provider: npm
   email:
     secure: j4tYvUhw1yyuEKsYD/5loHS12uFs+O3q2rMaCX+W2DeGP1EVq4bpEGO5FDOnKQrdEsTBt7vg0NjWx3MgPWKzJNQ5wG3T3vXr1nxvgLi6ZI85eon8rZRCG6dyVCdxH7jT6FYRQ+tw2yF5TpuU4lI3oAF/XOy0qQCWgnndjkHsjQuAI6znyEom8yU/eezQpAIqxm3xDzoY8R0dD5TrJHDyoBEhZh2IUrJ2hCcLL0YMBysMIElvGfzJaqx66iPJjmEHNWytCgTXrcrxclWuV6/tPQhPRgrL3jh4ENd8+ZpGU9prZljWW/7yKNUUNHi9LqbmMgwiHzYdpPBkWqYsphz9HgsRQBvQRm9qxHw0FEzu2XEWDqpdBg5GX0HlaZ0y5HoqO0UWtIBhsV0CxaSLfXyJjHprFMrpMJnbvaf+WEJDsJys85P/jBB0wBIxsp2ezvPFTsL9fgQPsPgwtNOI+xwFIwJDey1OSX5UkEz/nk05ZJEkFuDdmiZp2I4Y6OslJW3ONaF6W7Y2XwWkFr4uaegtmf911mwV+RZpVy9wT9iQmanoQyanyf5WtswUJtfmUb0gqKotGwuZFm2PPqipUj/gb0VB6W6HFm71ewfZ5K0haATvaovPZB1STBGs68x5SjlTXT0tyNgLzyFU5bJ2CSSigIfkDE8YKp6bSCNa119L9xw=

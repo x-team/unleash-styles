@@ -11,7 +11,7 @@ cache:
   directories:
     - node_modules
 
-before_deploy: "npm version --patch"
+before_deploy: "npm version patch"
 deploy:
   provider: npm
   email:

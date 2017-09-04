@@ -19,6 +19,7 @@ test:
 deployment:
   production:
     branch: master
+    tag: next
     commands:
       - yarn run styleguide:build
       - yarn run deploy

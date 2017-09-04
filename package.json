@@ -1,6 +1,6 @@
 {
   "name": "unleash-styles",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "React components for X-Team Unleash App",
   "main": "lib/bundle.js",
   "scripts": {

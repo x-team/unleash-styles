@@ -6,6 +6,7 @@
   "scripts": {
     "postinstall": "./postinstall.sh",
     "test": "jest",
+    "test:update": "jest --updateSnapshot",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "lint": "standard src/**/*.js",

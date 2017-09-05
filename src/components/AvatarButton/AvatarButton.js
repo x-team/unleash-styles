@@ -7,34 +7,19 @@ import styles from './AvatarButton.css'
  * Avatar component which can be used in relation to user profile
  */
 class AvatarButton extends Component {
-  static defaultProps: Object
-
-  handleClick () {
-    const { onClick } = this.props
-    onClick()
-  }
-
   render () {
-    return (
-      <div>
-        <input
-          type='checkbox'
-          onClick={this.handleClick}
-          className={styles.AvatarButton}
-          id='avatar_button'
-        />
-        <label
-          className={styles.AvatarButtonLabel}
-          htmlFor='avatar_button'>{this.props.label}
-        </label>
-      </div>
+    const { onClick } = this.props
+    const input = <input type='checkbox' className={styles.AvatarButton} id='avatar_button' />
+    const label = (
+      <label className={styles.AvatarButtonLabel} htmlFor='avatar_button'>
+        {this.props.label}
+      </label>
     )
-  }
-}
 
-AvatarButton.defaultProps = {
-  label: null,
-  onClick: val => val
+    return onClick
+      ? (<a onClick={onClick}>{input}{label}</a>)
+      : (<div>{input}{label}</div>)
+  }
 }
 
 AvatarButton.propTypes = {

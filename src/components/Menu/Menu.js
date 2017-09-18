@@ -11,6 +11,7 @@ import MenuButton from './MenuButton'
  */
 class Menu extends Component {
   static defaultProps: Object
+  handleClick: Function
 
   state: {
     isShowing: boolean
@@ -22,9 +23,11 @@ class Menu extends Component {
     this.state = {
       isShowing: false
     }
+    this.handleClick = this.handleClick.bind(this)
   }
 
-  handleClick () {
+  handleClick (e: Object) {
+    e.preventDefault()
     this.setState({
       isShowing: !this.state.isShowing
     })
@@ -39,7 +42,7 @@ class Menu extends Component {
 
     return (
       <nav className={styles.Menu}>
-        <div onClick={() => this.handleClick()}>{menuButton}</div>
+        <a onClick={this.handleClick}>{menuButton}</a>
         <ul className={listClasses}>
           {this.props.children}
         </ul>

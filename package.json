@@ -1,11 +1,12 @@
 {
   "name": "unleash-styles",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "React components for X-Team Unleash App",
   "main": "lib/bundle.js",
   "scripts": {
     "postinstall": "./postinstall.sh",
     "test": "jest",
+    "test:update": "jest --updateSnapshot",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "lint": "standard src/**/*.js",

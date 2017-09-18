@@ -6,7 +6,3 @@ GoalCard component:
       <GoalCardItem label='test3' />
       <GoalCardItem label='test4' />
     </GoalCard>
-
-GoalCardItem component:
-
-  <GoalCardItem label='test1' isComplete />

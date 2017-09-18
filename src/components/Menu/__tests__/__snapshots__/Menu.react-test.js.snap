@@ -11,13 +11,13 @@ ShallowWrapper {
   "node": <nav
     className="Menu"
 >
-    <div
+    <a
         onClick={[Function]}
     >
         <MenuButton
             onClick={[Function]}
         />
-    </div>
+    </a>
     <ul
         className="MenuList"
     />
@@ -26,13 +26,13 @@ ShallowWrapper {
     <nav
       className="Menu"
 >
-      <div
+      <a
             onClick={[Function]}
       >
             <MenuButton
                   onClick={[Function]}
             />
-      </div>
+      </a>
       <ul
             className="MenuList"
       />
@@ -58,6 +58,7 @@ ShallowWrapper {
       "_instance": Menu {
         "_reactInternalInstance": [Circular],
         "context": Object {},
+        "handleClick": [Function],
         "props": Object {
           "isAlwaysOpened": false,
           "menuButton": <MenuButton
@@ -89,13 +90,13 @@ ShallowWrapper {
         "_currentElement": <nav
           className="Menu"
 >
-          <div
+          <a
                     onClick={[Function]}
           >
                     <MenuButton
                               onClick={[Function]}
                     />
-          </div>
+          </a>
           <ul
                     className="MenuList"
           />
@@ -104,13 +105,13 @@ ShallowWrapper {
         "_renderedOutput": <nav
           className="Menu"
 >
-          <div
+          <a
                     onClick={[Function]}
           >
                     <MenuButton
                               onClick={[Function]}
                     />
-          </div>
+          </a>
           <ul
                     className="MenuList"
           />
@@ -148,13 +149,13 @@ ShallowWrapper {
   "node": <nav
     className="Menu"
 >
-    <div
+    <a
         onClick={[Function]}
     >
         <MenuButton
             onClick={[Function]}
         />
-    </div>
+    </a>
     <ul
         className="MenuList"
     >
@@ -172,13 +173,13 @@ ShallowWrapper {
     <nav
       className="Menu"
 >
-      <div
+      <a
             onClick={[Function]}
       >
             <MenuButton
                   onClick={[Function]}
             />
-      </div>
+      </a>
       <ul
             className="MenuList"
       >
@@ -222,6 +223,7 @@ ShallowWrapper {
       "_instance": Menu {
         "_reactInternalInstance": [Circular],
         "context": Object {},
+        "handleClick": [Function],
         "props": Object {
           "children": Array [
             <MenuItem
@@ -263,13 +265,13 @@ ShallowWrapper {
         "_currentElement": <nav
           className="Menu"
 >
-          <div
+          <a
                     onClick={[Function]}
           >
                     <MenuButton
                               onClick={[Function]}
                     />
-          </div>
+          </a>
           <ul
                     className="MenuList"
           >
@@ -287,13 +289,13 @@ ShallowWrapper {
         "_renderedOutput": <nav
           className="Menu"
 >
-          <div
+          <a
                     onClick={[Function]}
           >
                     <MenuButton
                               onClick={[Function]}
                     />
-          </div>
+          </a>
           <ul
                     className="MenuList"
           >
@@ -349,14 +351,13 @@ ShallowWrapper {
   "node": <nav
     className="Menu"
 >
-    <div
+    <a
         onClick={[Function]}
     >
         <AvatarButton
             label="test"
-            onClick={[Function]}
         />
-    </div>
+    </a>
     <ul
         className="MenuList"
     >
@@ -374,14 +375,13 @@ ShallowWrapper {
     <nav
       className="Menu"
 >
-      <div
+      <a
             onClick={[Function]}
       >
             <AvatarButton
                   label="test"
-                  onClick={[Function]}
             />
-      </div>
+      </a>
       <ul
             className="MenuList"
       >
@@ -407,7 +407,6 @@ ShallowWrapper {
         menuButton={
                 <AvatarButton
                         label="test"
-                        onClick={[Function]}
                 />
         }
 >
@@ -426,6 +425,7 @@ ShallowWrapper {
       "_instance": Menu {
         "_reactInternalInstance": [Circular],
         "context": Object {},
+        "handleClick": [Function],
         "props": Object {
           "children": Array [
             <MenuItem
@@ -440,7 +440,6 @@ ShallowWrapper {
           "isAlwaysOpened": false,
           "menuButton": <AvatarButton
             label="test"
-            onClick={[Function]}
 />,
         },
         "refs": Object {},
@@ -468,14 +467,13 @@ ShallowWrapper {
         "_currentElement": <nav
           className="Menu"
 >
-          <div
+          <a
                     onClick={[Function]}
           >
                     <AvatarButton
                               label="test"
-                              onClick={[Function]}
                     />
-          </div>
+          </a>
           <ul
                     className="MenuList"
           >
@@ -493,14 +491,13 @@ ShallowWrapper {
         "_renderedOutput": <nav
           className="Menu"
 >
-          <div
+          <a
                     onClick={[Function]}
           >
                     <AvatarButton
                               label="test"
-                              onClick={[Function]}
                     />
-          </div>
+          </a>
           <ul
                     className="MenuList"
           >
@@ -530,7 +527,6 @@ ShallowWrapper {
     menuButton={
         <AvatarButton
             label="test"
-            onClick={[Function]}
         />
     }
 >
